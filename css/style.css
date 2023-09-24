@@ -1,1 +1,39 @@
 /* add styling here */
+/*  main styling    */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Public Pixel', sans-serif;
+}
+
+button {
+    padding: 2% 3%;
+    font-size: 1.3rem;
+}
+
+
+/* flex */
+.button-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.game-state-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hidden {
+    visibility: hidden
+  }
+body {
+    font-family: 'Public Pixel', sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/3433280.jpg");
+}
+button {
+    font-family: 'Public Pixel', sans-serif;
+    background-color: brown;
+    border-color: rgb(43,34,65);
+}
+#hunger {
+    text-shadow: 1px 1px 1px;
+}

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tamagotchi Lab</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.cdnfonts.com/css/public-pixel" rel="stylesheet">
     <script src="./js/main.js" defer></script>
   </head>
 
@@ -23,9 +26,9 @@
 
       <!-- game data section -->
       <section id="stat-display" class="stats-wrapper">
-        <p>Happiness: <span id="boredom-stat">...</span></p>
-        <p>Hunger: <span id="hunger-stat">...</span></p>
-        <p>Tiredness: <span id="sleepiness-stat">...</span></p>
+        <p id="happiness">Happiness: <span id="boredom-stat">...</span></p>
+        <p id="hunger">Hunger: <span id="hunger-stat">...</span></p>
+        <p id="tiredness">Tiredness: <span id="sleepiness-stat">...</span></p>
       </section>
 
       <!-- game display / messaging section -->
@@ -33,7 +36,7 @@
         <h2 id="tama-message" class="hidden">
           Oh no! <span id="message-content">You starved!</span>
         </h2>
-        <img id="tama-graphic" src="../assets/wolf-1.png" class="game-graphic" />
+        <img id="tama-graphic" src="./assets/wolf-1.png" class="game-graphic" />
         <button id="restart" class="hidden">Play Again</button>
       </section>
     </main>
